@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fiasco_back"
+    android:gravity="center_horizontal"
+    tools:context=".Main_menu" >
+
+    <Button
+        android:id="@+id/Distribution_Plan"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/view_collection_status"
+        android:layout_alignRight="@+id/Data_Analytics"
+        android:layout_below="@+id/view_collection_status"
+        android:layout_marginTop="31dp"
+        android:text=" Catagorized Donation "
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/distribution_Status"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/Distribution_Plan"
+        android:layout_alignRight="@+id/Distribution_Plan"
+        android:layout_below="@+id/Distribution_Plan"
+        android:layout_marginTop="26dp"
+        android:text="    Distribution Status    "
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Data_Analytics"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/view_collection_status"
+        android:layout_below="@+id/distribution_Status"
+        android:layout_marginTop="30dp"
+        android:text="         Data Analysis         "
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/view_collection_status"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:text="            Route Plan           "
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:background="#000000"
+        android:text="     Please Select"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
